@@ -1,4 +1,3 @@
-import React from 'react';
 import { useFormik } from 'formik';
 import PopupInput from "./PopupInput";
 import { PopupImg } from "../utils/img-library";
