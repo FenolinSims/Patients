@@ -21,7 +21,7 @@ import Picture2 from './../assets/Picture2.svg'
 import Tdots from './../assets/menu.png'
 import Edit_3 from './../assets/Edit_3.svg'
 import Phone from './../assets/Phone.svg'
-import Email from './../assets/email.svg'
+import Email from './../assets/Email.svg'
 
 export {
     Profile,
