@@ -19,7 +19,7 @@ const Home = () => {
             <SideNav />
             <SubHeader showPopup={showPopup} setShowPopup={setShowPopup}/>
             <div className="content-body content-body-home ">
-                <div className="fr-vc dashbox-mr ">
+                <div className="dashbox-mr">
                     <DashBox imgsrc={Layer_1} con1="1384" con2="patients" con3="added in last month" dashCls={["bg-lylow"]} dashfontcls={["txt-ylow"]} />
                     <DashBox imgsrc={Layer_2} con1="46" con2="wishlinks" con3="sent in last month " dashCls={["bg-lpink"]} dashfontcls={["txt-pink"]} />
                     <div className="bg-green dashbox">

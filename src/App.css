@@ -134,11 +134,11 @@
 }
 
 .subheader {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 40px;
-    color: #1c1c1c;
-    font-family: 'Gilroy-EBold';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #1c1c1c;
+  font-family: 'Gilroy-EBold';
 }
 
 .button {
@@ -176,6 +176,7 @@
   flex-direction: row;
   align-items: center;
   gap: 15px;
+  color: #333333;
 }
 
 .fr-vs {
@@ -186,7 +187,7 @@
 }
 
 .dashbox {
-  width: 30%;
+  width: auto;
   height: 195px;
   top: 178px;
   left: 118px;
@@ -194,7 +195,7 @@
   border-radius: 20px;
   opacity: 0px;
   background: #fcebd0;
-  min-width: 200px;
+  min-width: 330px;
 }
 
 .con1 {
@@ -235,9 +236,16 @@
 }
 
 .dashbox-mr {
+  padding: 0px 12px 0px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+}
+
+/* .dashbox-mr {
   padding: 0px 10px 0px 20px;
   flex-wrap: wrap;
-}
+} */
 
 .con4 {
   font-style: normal;
@@ -379,6 +387,7 @@
   font-size: 15px;
   line-height: 20px;
   text-align: left;
+  color: #333333;
 }
 
 .pdetail {
@@ -628,6 +637,7 @@
 .bg-blue {
   background-color: #1557c2;
 }
+
 .bg-red {
   background-color: #ff3d20;
 }
@@ -635,6 +645,7 @@
 .bg-ylow {
   background-color: #ffb800;
 }
+
 .txt-ylow {
   color: #ffb800;
 }
@@ -642,6 +653,7 @@
 .bg-pink {
   background-color: #ff5e48;
 }
+
 .txt-pink {
   color: #ff5e48;
 }
@@ -649,6 +661,7 @@
 .bg-green {
   background-color: #6ac7b5;
 }
+
 .bg-grey {
   background-color: #717171;
 }
@@ -681,7 +694,7 @@
 
 .width {
   width: calc(100% - 150px);
-  
+
 }
 
 .info-title {
@@ -768,7 +781,20 @@
   appearance: none !important;
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1130px) {
+  .dashbox-mr {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .dashbox-mr {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 15px;
+  }
+}
+
+/* @media screen and (max-width: 1160px) {
   .dashbox-mr {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -779,4 +805,4 @@
   .dashbox{
     width: auto;
   }
-}
+} */
