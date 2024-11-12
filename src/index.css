@@ -1,5 +1,6 @@
 :root {
-  font-family:  'Open Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Gilroy-Light', 'Open Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -13,21 +14,35 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-*{
+* {
   margin: 0px;
   box-sizing: border-box;
-  font-family: 'Open Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Gilroy-Light', 'Open Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 @font-face {
-  font-family: 'Gilroy-Light';
-  src: url('./assets/fonts/Gilroy-Light.otf');
+  font-family: 'Gilroy-Reg';
+  src: url('./assets/fonts/Gilroy-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Gilroy-EBold';
-  src: url('./assets/fonts/Gilroy-ExtraBold.otf');
+  font-family: 'Gilroy-Med';
+  src: url('./assets/fonts/Gilroy-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('./assets/fonts/Gilroy-Light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('./assets/fonts/Gilroy-Bold.ttf');
 }
 
 a {
@@ -35,6 +50,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -47,6 +63,7 @@ body {
   min-height: 100vh;
   overflow: hidden;
   background-color: #ffffff;
+  color: #000000;
 }
 
 h1 {
@@ -65,9 +82,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -78,9 +97,11 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }

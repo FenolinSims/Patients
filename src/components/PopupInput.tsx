@@ -9,15 +9,20 @@ const PopupInput = (props) => {
                 variant="filled"
                 className='textbox'
                 value={props?.values?.props?.name}
-                onChange={props.handleChange}  
+                onChange={props.handleChange}
+                style={{
+                    width: '628px',
+                    height: '46',
+                    borderRadius: '3px',
+                }}
                 InputProps={{
-                    disableUnderline: false, 
+                    disableUnderline: false,
                 }}
                 sx={{
                     '& .MuiFilledInput-root': {
-                        backgroundColor: '#efefef', 
+                        backgroundColor: '#efefef',
                         '&:hover': {
-                            backgroundColor: '#d3f3d7', 
+                            backgroundColor: '#d3f3d7',
                         },
                         '&.Mui-focused': {
                             backgroundColor: '#d3f3d7',

@@ -42,10 +42,10 @@ const HomeTable = () => {
           {allPatients && allPatients.length > 0 ? (
             allPatients.map((item, index) => {
               return (
-                <tr key={index} onClick={() => navigation('patient-info')}>
+                <tr key={index} onClick={() => navigation('patient-info')} style={{height:"79px"}} className="table-tr">
                   <td>
                     <div className="fr-vc">
-                      <Avatar name={item.patientName} size="30" round />
+                      <Avatar name={item.patientName} size="40" round />
                       <div>
                         <div className="table-btxt">{item.patientName || 'Patient Name'}</div>
                         <div className="">
@@ -57,7 +57,7 @@ const HomeTable = () => {
                   </td>
                   <td className="table-bad-td">
                     <div className="table-icoc">
-                      <div className="table-ico table-iconb">
+                      <div className="table-ico table-iconb table-iconbh">
                         <img className="table-ico-img" src={Phone} alt="Mobile" />
                       </div>
                       <div className="table-ico table-iconb">
@@ -73,7 +73,8 @@ const HomeTable = () => {
                   </td>
                   <td className="table-action">
                     <div className="table-ico">
-                      <img className="table-ico-img" src={Tdots} alt="Options" />
+                      <img className="table-ico-img" src={Tdots} alt="Options" 
+                      style={{width:"30px", height:"30px"}}/>
                     </div>
                   </td>
                 </tr>

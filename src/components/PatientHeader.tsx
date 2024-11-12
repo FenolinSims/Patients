@@ -9,26 +9,25 @@ const PatientHeader = () => {
         <div className="">
             <div className="patientHeader">
                 <p className="title ">Patient Info</p>
-                <p style={{ fontSize: "11px" }}><span style={{ color: "#049C8A" }}>Patients</span> / Patient Info</p>
+                <p className="patientInfoHp"><span style={{ color: "#049C8A",fontFamily: 'Gilroy-Bold', fontWeight: "600" }}>Patients</span> / Patient Info</p>
             </div>
             <div className="fr-vc profileinfo ">
                 <div className="fr-vc">
-
                     <div>
-                        <img src={Picture_D} style={{ width: "40px" }} />
+                        <img src={Picture_D} style={{ width: "70px", height:"70px" }} />
                     </div>
                     <div>
                         <div className="name">
                             Dave S George
                         </div>
-                        <div className="fr-vc">
+                        <div className="info-fr-vc">
                             <p className="pdetail">Male (21)</p>
-                            <div className="fr-vc gap-5">
-                                <img src={Cake} style={{ width: "16px" }} />
+                            <div className="info-fr-vc gap-5">
+                                <img src={Cake} style={{ width: "24px", height: "24px" }} />
                                 <p className="pdetail">Jun 25 2000</p>
                             </div>
                             <div className="fr-vc gap-5">
-                                <img src={Edit2} style={{ width: "16px" }} />
+                                <img src={Edit2} style={{ width: "24px", height:"24px" }} />
                                 <p className="pdetail">Exam : <span className="date">mm-dd-yyyy</span></p>
                             </div>
                         </div>
@@ -36,11 +35,11 @@ const PatientHeader = () => {
                 </div>
 
                 <div>
-                    <button className="button">
+                    <button className="button2">
                         <img style={{
-                            width: "14px"
+                            width: "20px"
                         }} src={Edit1} />
-                        <div style={{ color: "white", fontSize: "12px" }}>
+                        <div style={{ color: "white", fontSize: "16px",fontWeight: "500", lineHeight: "20px" }}>
                             Edit
                         </div>
                     </button>

@@ -40,7 +40,7 @@ const Popup = ({ showPopup, setShowPopup }) => {
                     <img src={PopupImg} className="popupimg" alt="Popup" />
                 </div>
                 <form onSubmit={formik.handleSubmit} className="ml">
-                    <p className="title">Add patient</p>
+                    <p className="popup-title">Add patient</p>
                     <PopupInput
                         label="Patient Name"
                         name="patientName"

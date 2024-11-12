@@ -12,7 +12,6 @@ function App() {
         <Routes>
           <Route path="/" Component={() => <Home />} />
           <Route path="patient-info" Component={() => <PatientInfo />} />
-
         </Routes>
       </BrowserRouter>
     </>

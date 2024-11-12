@@ -5,10 +5,10 @@ import { FakeImg } from "../utils/img-library";
 const Insurancecard = () => {
     return (
         <div className="infobox">
-            <div className="fr-vc space">
+            <div className="info-fr space">
                 <div className="info-box-title">Insurance card</div>
-                <div className="fr-vc gap-5">
-                    <img src={Edit_3} className="w15"/>
+                <div className="info-fr-edit gap-5">
+                    <img src={Edit_3} className="w20"/>
                     <div className="edit">Edit</div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ const Insurancecard = () => {
                         <p className="info-name">Image uploaded</p>
                         <div className="fr-vc" style={{ width: "50%" }}>
                             <img src={FakeImg} style={{
-                                height:"20px"
+                                height:"24px"
                             }} />
                         </div>
                     </div>

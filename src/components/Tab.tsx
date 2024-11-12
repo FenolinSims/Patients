@@ -8,7 +8,7 @@ const Tab = () => {
     return (
         <div>
             <div className="tab-menu">
-                <TabOption tab="Responsible Parties" classLst={['tab-menu-opt active-tab-head']} />
+                <TabOption tab="Responsible Parties" classLst={['active-tab-head tab-menu-opt ']} />
                 <TabOption tab="Tab2" classLst={['tab-menu-opt']} />
                 <TabOption tab="Tab3" classLst={['tab-menu-opt']} />
                 <TabOption tab="Tab4" classLst={['tab-menu-opt']} />

@@ -6,8 +6,8 @@ const Coverage = () => {
         <div className="infobox">
             <div className="fr-vc space">
                 <div className="info-box-title">Coverage</div>
-                <div className="fr-vc gap-5">
-                    <img src={Edit_3} className="w15"/>
+                <div className="info-fr-edit gap-5">
+                    <img src={Edit_3} className="w20"/>
                     <div className="edit">Edit</div>
                 </div>
             </div>

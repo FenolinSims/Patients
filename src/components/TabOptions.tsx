@@ -3,7 +3,7 @@ const TabOption = ({tab, classLst}) => {
     return (
         <>
             <div className={`${tempclassLst}`}>
-                <p className={`${tempclassLst}`}>{tab}</p>
+                <p className={`${tempclassLst} `}>{tab}</p>
             </div>
         </>
     )

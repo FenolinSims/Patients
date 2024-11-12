@@ -25,10 +25,8 @@ const Home = () => {
                     <div className="bg-green dashbox">
                         <p className="con4">Learn how to send Wishlinks</p>
                         <button className="button1">
-                            <img style={{
-                                width: "15px"
-                            }} src={Play_arrow} />
-                            <div >
+                            <img className="play-vdo" src={Play_arrow} />
+                            <div className="play-vdo-txt">
                                 Play Video
                             </div>
                         </button>
