@@ -105,7 +105,7 @@
   background-color: #ffffff;
   /* border-bottom: 1px solid #efefef; */
   position: fixed;
-  top: 70px;
+  top: 81px;
   left: 81px;
   right: 0;
   z-index: 1000;
@@ -141,7 +141,7 @@
 .header-right {
   height: 40px;
   border-radius: 50%;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .header-right img {
@@ -155,7 +155,8 @@
   line-height: 40px;
   color: #1c1c1c;
   font-family: 'Gilroy-Bold';
-  margin-left: 65px;
+  /* margin-left: 65px; */
+  margin-left: 20px;
 }
 
 .button {
@@ -212,7 +213,8 @@
   align-items: center;
   gap: 16px;
   color: #333333;
-  margin-right: 40px;
+  /* margin-right: 40px; */
+  margin-right: 20px;
 }
 
 .dash-fr {
@@ -566,10 +568,10 @@
 .content-body {
   position: absolute;
   top: 70px;
-  left: 78px;
+  left: 40px;
   bottom: 0px;
   right: 0px;
-  padding: 34px 40px;
+  padding: 48px 12px 0px 40px;
   overflow: auto;
   max-width: 1366px;
   margin: auto;

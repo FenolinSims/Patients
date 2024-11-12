@@ -4,7 +4,7 @@ import InfoOption from "./InfoOption";
 const Coverage = () => {
     return (
         <div className="infobox">
-            <div className="fr-vc space">
+            <div className="info-fr space">
                 <div className="info-box-title">Coverage</div>
                 <div className="info-fr-edit gap-5">
                     <img src={Edit_3} className="w20"/>
