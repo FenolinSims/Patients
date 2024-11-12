@@ -22,7 +22,7 @@ const PatientHeader = () => {
                         </div>
                         <div className="info-fr-vc">
                             <p className="pdetail">Male (21)</p>
-                            <div className="info-fr-vc gap-5">
+                            <div className="fr-vc gap-5">
                                 <img src={Cake} style={{ width: "24px", height: "24px" }} />
                                 <p className="pdetail">Jun 25 2000</p>
                             </div>

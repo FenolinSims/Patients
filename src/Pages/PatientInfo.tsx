@@ -8,7 +8,7 @@ const PatientInfo = () => {
         <>
             <Header Picture={Picture2} />
             <SideNav />
-            <div className="content-body">
+            <div className="content-body1">
                 <PatientHeader />
             </div>
         </>

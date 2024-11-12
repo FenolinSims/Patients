@@ -576,6 +576,17 @@
   max-width: 1366px;
   margin: auto;
 }
+.content-body1 {
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  bottom: 0px;
+  right: 0px;
+  padding: 48px 40px 0px 66px;
+  overflow: auto;
+  max-width: 1366px;
+  margin: auto;
+}
 
 
 .content-body-home {
